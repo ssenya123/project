@@ -1,79 +1,66 @@
-.subscribe{
-
+.subscribe {
   margin-top: 9.6rem;
   margin-bottom: 9.6rem;
   margin-left: 4rem;
   margin-right: 4rem;
 
-
-  &.subscribe-image{
+  &.subscribe-image {
     background: url(/img/blue.png);
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 3.2rem;
-
   }
-
 }
 
-.inside{
-
+.inside {
   display: flex;
   justify-content: space-around;
   align-items: center;
   padding-top: 10.4rem;
   padding-bottom: 10.4rem;
 
-
-  &__letter{
+  &__letter {
     color: $color-white;
     font-weight: 700;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-size: 4.8rem;
     line-height: 5.6rem;
-    letter-spacing: .36px;
-
-
+    letter-spacing: 0.36px;
   }
 
-  &__email{
+  &__email {
     background-color: $color-white;
     border-radius: 1.6rem;
     font-size: 1.8rem;
     line-height: 3.2rem;
-    letter-spacing: .36px;
+    letter-spacing: 0.36px;
     color: $color-primary-grey;
     text-align: center;
     padding: 2.4rem;
     border-style: none;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     width: 40.7rem;
-    margin-right: 0;  /* Убираем отступ */
-
-  
+    margin-right: 0; /* Убираем отступ */
   }
 
-  &__butt{
+  &__butt {
     background-color: $color-primary-grey;
     border-radius: 1.6rem;
     font-size: 2rem;
     line-height: 3.2rem;
-    letter-spacing: .36px;
+    letter-spacing: 0.36px;
     color: $color-white;
     text-align: center;
     padding: 2.4rem;
     border-style: none;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     width: 19.9rem;
-
   }
 
-  .email-butt{
+  .email-butt {
     display: flex;
     justify-content: flex-start; /* Выравниваем элементы слева */
-    gap: 2.4rem;  /* Добавляем небольшой промежуток между элементами */
-    margin-left: .6rem;
-
+    gap: 2.4rem; /* Добавляем небольшой промежуток между элементами */
+    margin-left: 0.6rem;
   }
-
 }

@@ -1,4 +1,4 @@
-.header{
+.header {
   width: 100%;
   display: flex;
   align-items: center;
@@ -6,32 +6,24 @@
   padding-top: 6rem;
   padding-bottom: 6rem;
 
-  &__menu .silka{
+  &__menu .silka {
     text-decoration: none;
     color: $color-primary-grey;
     font-weight: 400;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-size: 2rem;
     line-height: 3.2rem;
-    letter-spacing: .36px;
+    letter-spacing: 0.36px;
     padding-right: 4rem;
- 
-
   }
 
-  &__list{
-
+  &__list {
     list-style: none;
     display: inline-block;
   }
 
-
-  
-  &__logo{
+  &__logo {
     width: auto;
     padding-left: 4rem;
   }
-  
-
-
 }

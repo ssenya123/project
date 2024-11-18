@@ -1,78 +1,66 @@
-.ecofriendly{
-
+.ecofriendly {
   display: flex;
   position: relative;
-
-
 }
 
-
-.friendly{
-
+.friendly {
   display: inline-block;
   border-radius: 3.2rem;
   background-color: $color-white;
-  box-shadow:  1.6rem 2.4rem 5.2rem -.8rem #00000026;
+  box-shadow: 1.6rem 2.4rem 5.2rem -0.8rem #00000026;
   margin-top: 5.6rem;
   position: absolute;
   right: 0;
   margin-right: 4rem;
 
-
-
-
-  &__eco{
-    font-family: 'Yellowtail', cursive;
+  &__eco {
+    font-family: "Yellowtail", cursive;
     font-weight: 400;
     font-size: 3.6rem;
     line-height: 6.4rem;
-    letter-spacing: .36px;
+    letter-spacing: 0.36px;
     color: $color-primary-green;
     width: fit-content;
     padding-left: 4.8rem;
     padding-top: 3.6rem;
   }
 
-  &__from{
+  &__from {
     color: $color-primary-grey;
     font-weight: 700;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-size: 4.8rem;
     line-height: 5.6rem;
-    letter-spacing: .36px;
+    letter-spacing: 0.36px;
     width: fit-content;
     padding-bottom: 5.6rem;
     padding-left: 4.8rem;
     padding-right: 3.5rem;
   }
 
-
-  &__frame3{
-
+  &__frame3 {
     padding-left: 4.8rem;
     padding-bottom: 6.8rem;
     padding-right: 4.4rem;
 
-    &-item-sub{
+    &-item-sub {
       color: $color-primary-grey;
       font-weight: 700;
-      font-family: 'Roboto', sans-serif;
+      font-family: "Roboto", sans-serif;
       font-size: 2.4rem;
       line-height: 3.2rem;
-      letter-spacing: .36px;
+      letter-spacing: 0.36px;
       width: fit-content;
     }
 
-    &-item-text{
+    &-item-text {
       color: $color-grey-5;
       font-weight: 400;
-      font-family: 'Roboto', sans-serif;
+      font-family: "Roboto", sans-serif;
       font-size: 1.8rem;
       line-height: 3.2rem;
-      letter-spacing: .36px;
+      letter-spacing: 0.36px;
       width: fit-content;
     }
-
   }
-
 }
