@@ -31,7 +31,7 @@
 .cards-container {
   display: grid; /* Включаем Grid Layout */
   grid-template-columns: repeat(3, 1fr); /* 3 карточки в ряду */
-  gap: 1rem;
+  gap: 3.2rem;
   padding: 2rem;
 }
 

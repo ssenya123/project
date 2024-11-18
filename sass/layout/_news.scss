@@ -12,7 +12,9 @@
 .dva{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  padding: 8rem 4rem;
+  padding-top: 8rem;
+  padding-left: 4rem;
+  padding-bottom: 8rem;
   gap: 3.1rem;
   }
 
@@ -66,6 +68,7 @@
     font-size: 2rem;
     line-height: 3.2rem;
     letter-spacing: .36px;
+    margin-right :8rem;
 
 
   }
@@ -83,6 +86,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 3.2rem;
+
   }
 
   &.cardsnews-picture-2{

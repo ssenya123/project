@@ -41,7 +41,7 @@ body {
 .cards-container {
   display: grid; /* Включаем Grid Layout */
   grid-template-columns: repeat(3, 1fr); /* 3 карточки в ряду */
-  gap: 1rem;
+  gap: 3.2rem;
   padding: 2rem;
 }
 
@@ -198,7 +198,7 @@ body {
   color: #274C5B;
   font-weight: 400;
   font-family: "Roboto", sans-serif;
-  font-size: 2.4rem;
+  font-size: 1.8rem;
   line-height: 3.2rem;
   letter-spacing: 0.36px;
 }
@@ -263,6 +263,173 @@ body {
   line-height: 3.2rem;
   letter-spacing: 0.36px;
   width: fit-content;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 67.4rem 1fr;
+}
+
+.leftt {
+  padding-right: 3.2rem;
+  padding-left: 4rem;
+  margin-left: 4rem;
+  margin-bottom: 6.5rem;
+}
+.leftt__upper {
+  color: #274C5B;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+  font-size: 3rem;
+  line-height: 3.2rem;
+  letter-spacing: 0.36px;
+  text-align: right;
+  padding-bottom: 4.8rem;
+  padding-right: 1.6rem;
+}
+.leftt__email {
+  padding-bottom: 3.2rem;
+  padding-right: 1.6rem;
+}
+.leftt__email-1 {
+  color: #525C60;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+  line-height: 3.2rem;
+  letter-spacing: 0.36px;
+  text-align: right;
+}
+.leftt__email-2 {
+  color: #525C60;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.8rem;
+  line-height: 3.2rem;
+  letter-spacing: 0.36px;
+  text-align: right;
+}
+.leftt__phone {
+  padding-bottom: 3.2rem;
+  padding-right: 1.6rem;
+}
+.leftt__phone-1 {
+  color: #525C60;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+  line-height: 3.2rem;
+  letter-spacing: 0.36px;
+  text-align: right;
+}
+.leftt__phone-2 {
+  color: #525C60;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.8rem;
+  line-height: 3.2rem;
+  letter-spacing: 0.36px;
+  text-align: right;
+}
+.leftt__address {
+  padding-right: 1.6rem;
+}
+.leftt__address-1 {
+  color: #525C60;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+  line-height: 3.2rem;
+  letter-spacing: 0.36px;
+  text-align: right;
+}
+.leftt__address-2 {
+  color: #525C60;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.8rem;
+  line-height: 3.2rem;
+  letter-spacing: 0.36px;
+  text-align: right;
+}
+
+.middle {
+  text-align: center;
+  border-top: none; /* Убираем верхнюю границу */
+  border-bottom: none; /* Убираем нижнюю границу */
+  border-left: 1px solid #B8B8B8; /* Левая граница */
+  border-right: 1px solid #B8B8B8; /* Правая граница */
+  margin-right: 3.2rem;
+  padding-top: 3.3rem;
+  margin-bottom: 8rem;
+}
+.middle__company {
+  color: #525C60;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.8rem;
+  line-height: 3.2rem;
+  letter-spacing: 0.36px;
+  text-align: center;
+  padding-top: 4rem;
+  margin-left: 4.9rem;
+  margin-right: 4.8rem;
+}
+.middle__icons {
+  font-size: 3.4rem;
+  padding-top: 6.4rem;
+  gap: 2.4rem;
+}
+
+.rightt {
+  margin-bottom: 6.5rem;
+  padding-left: 1.6rem;
+}
+.rightt__utility {
+  color: #274C5B;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+  font-size: 3rem;
+  line-height: 3.2rem;
+  letter-spacing: 0.36px;
+  padding-bottom: 4.8rem;
+}
+.rightt__1 {
+  color: #525C60;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.8rem;
+  line-height: 3.2rem;
+  letter-spacing: 0.36px;
+}
+.rightt__2, .rightt__3, .rightt__4, .rightt__5 {
+  color: #525C60;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.8rem;
+  line-height: 3.2rem;
+  letter-spacing: 0.36px;
+  padding-top: 2.4rem;
+}
+
+.bottomm {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 1.6rem;
+  padding-top: 1.6rem;
+  border-top: 1px solid #B8B8B8; /* Убираем верхнюю границу */
+  border-bottom: none; /* Убираем нижнюю границу */
+  border-left: none; /* Левая граница */
+  border-right: none; /* Правая граница */
+}
+.bottomm__copy {
+  color: #525C60;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.8rem;
+  line-height: 3.2rem;
+  letter-spacing: 0.36px;
+  text-align: center;
 }
 
 .header {
@@ -395,7 +562,9 @@ body {
 .dva {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  padding: 8rem 4rem;
+  padding-top: 8rem;
+  padding-left: 4rem;
+  padding-bottom: 8rem;
   gap: 3.1rem;
 }
 
@@ -443,6 +612,7 @@ body {
   font-size: 2rem;
   line-height: 3.2rem;
   letter-spacing: 0.36px;
+  margin-right: 8rem;
 }
 
 .cardsnews {
@@ -548,6 +718,173 @@ body {
   letter-spacing: 0.36px;
   border-radius: 1.6rem;
   gap: 1.2rem;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 67.4rem 1fr;
+}
+
+.leftt {
+  padding-right: 3.2rem;
+  padding-left: 4rem;
+  margin-left: 4rem;
+  margin-bottom: 6.5rem;
+}
+.leftt__upper {
+  color: #274C5B;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+  font-size: 3rem;
+  line-height: 3.2rem;
+  letter-spacing: 0.36px;
+  text-align: right;
+  padding-bottom: 4.8rem;
+  padding-right: 1.6rem;
+}
+.leftt__email {
+  padding-bottom: 3.2rem;
+  padding-right: 1.6rem;
+}
+.leftt__email-1 {
+  color: #525C60;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+  line-height: 3.2rem;
+  letter-spacing: 0.36px;
+  text-align: right;
+}
+.leftt__email-2 {
+  color: #525C60;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.8rem;
+  line-height: 3.2rem;
+  letter-spacing: 0.36px;
+  text-align: right;
+}
+.leftt__phone {
+  padding-bottom: 3.2rem;
+  padding-right: 1.6rem;
+}
+.leftt__phone-1 {
+  color: #525C60;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+  line-height: 3.2rem;
+  letter-spacing: 0.36px;
+  text-align: right;
+}
+.leftt__phone-2 {
+  color: #525C60;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.8rem;
+  line-height: 3.2rem;
+  letter-spacing: 0.36px;
+  text-align: right;
+}
+.leftt__address {
+  padding-right: 1.6rem;
+}
+.leftt__address-1 {
+  color: #525C60;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+  line-height: 3.2rem;
+  letter-spacing: 0.36px;
+  text-align: right;
+}
+.leftt__address-2 {
+  color: #525C60;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.8rem;
+  line-height: 3.2rem;
+  letter-spacing: 0.36px;
+  text-align: right;
+}
+
+.middle {
+  text-align: center;
+  border-top: none; /* Убираем верхнюю границу */
+  border-bottom: none; /* Убираем нижнюю границу */
+  border-left: 1px solid #B8B8B8; /* Левая граница */
+  border-right: 1px solid #B8B8B8; /* Правая граница */
+  margin-right: 3.2rem;
+  padding-top: 3.3rem;
+  margin-bottom: 8rem;
+}
+.middle__company {
+  color: #525C60;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.8rem;
+  line-height: 3.2rem;
+  letter-spacing: 0.36px;
+  text-align: center;
+  padding-top: 4rem;
+  margin-left: 4.9rem;
+  margin-right: 4.8rem;
+}
+.middle__icons {
+  font-size: 3.4rem;
+  padding-top: 6.4rem;
+  gap: 2.4rem;
+}
+
+.rightt {
+  margin-bottom: 6.5rem;
+  padding-left: 1.6rem;
+}
+.rightt__utility {
+  color: #274C5B;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+  font-size: 3rem;
+  line-height: 3.2rem;
+  letter-spacing: 0.36px;
+  padding-bottom: 4.8rem;
+}
+.rightt__1 {
+  color: #525C60;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.8rem;
+  line-height: 3.2rem;
+  letter-spacing: 0.36px;
+}
+.rightt__2, .rightt__3, .rightt__4, .rightt__5 {
+  color: #525C60;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.8rem;
+  line-height: 3.2rem;
+  letter-spacing: 0.36px;
+  padding-top: 2.4rem;
+}
+
+.bottomm {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 1.6rem;
+  padding-top: 1.6rem;
+  border-top: 1px solid #B8B8B8; /* Убираем верхнюю границу */
+  border-bottom: none; /* Убираем нижнюю границу */
+  border-left: none; /* Левая граница */
+  border-right: none; /* Правая граница */
+}
+.bottomm__copy {
+  color: #525C60;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.8rem;
+  line-height: 3.2rem;
+  letter-spacing: 0.36px;
+  text-align: center;
 }
 
 .offers {
@@ -674,6 +1011,68 @@ body {
   width: fit-content;
   width: 26.9rem;
   text-align: center;
+}
+
+.subscribe {
+  margin-top: 9.6rem;
+  margin-bottom: 9.6rem;
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+.subscribe.subscribe-image {
+  background: url(/img/blue.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 3.2rem;
+}
+
+.inside {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 10.4rem;
+  padding-bottom: 10.4rem;
+}
+.inside__letter {
+  color: #FFFFFF;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+  font-size: 4.8rem;
+  line-height: 5.6rem;
+  letter-spacing: 0.36px;
+}
+.inside__email {
+  background-color: #FFFFFF;
+  border-radius: 1.6rem;
+  font-size: 1.8rem;
+  line-height: 3.2rem;
+  letter-spacing: 0.36px;
+  color: #274C5B;
+  text-align: center;
+  padding: 2.4rem;
+  border-style: none;
+  font-family: "Roboto", sans-serif;
+  width: 40.7rem;
+  margin-right: 0; /* Убираем отступ */
+}
+.inside__butt {
+  background-color: #274C5B;
+  border-radius: 1.6rem;
+  font-size: 2rem;
+  line-height: 3.2rem;
+  letter-spacing: 0.36px;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 2.4rem;
+  border-style: none;
+  font-family: "Roboto", sans-serif;
+  width: 19.9rem;
+}
+.inside .email-butt {
+  display: flex;
+  justify-content: flex-start; /* Выравниваем элементы слева */
+  gap: 2.4rem; /* Добавляем небольшой промежуток между элементами */
+  margin-left: 0.6rem;
 }
 
 .testimonials {

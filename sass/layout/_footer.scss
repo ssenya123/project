@@ -1,0 +1,208 @@
+.footer{
+
+  display: grid;
+  grid-template-columns: 1fr 67.4rem 1fr;
+
+
+
+}
+
+.leftt{
+
+ padding-right: 3.2rem;
+ padding-left: 4rem;
+ margin-left: 4rem;
+ margin-bottom: 6.5rem;
+
+
+    &__upper{
+      color: $color-primary-grey;
+      font-weight: 700;
+      font-family: 'Roboto', sans-serif;
+      font-size: 3rem;
+      line-height: 3.2rem;
+      letter-spacing: .36px;
+      text-align: right;
+      padding-bottom: 4.8rem;
+      padding-right: 1.6rem;
+    }
+
+    &__email{
+
+      padding-bottom: 3.2rem;
+      padding-right: 1.6rem;
+
+      &-1{
+        color: $color-grey-5;
+        font-weight: 700;
+        font-family: 'Roboto', sans-serif;
+        font-size: 2rem;
+        line-height: 3.2rem;
+        letter-spacing: .36px;
+        text-align: right;
+      }
+
+      &-2{
+        color: $color-grey-5;
+        font-weight: 400;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.8rem;
+        line-height: 3.2rem;
+        letter-spacing: .36px;
+        text-align: right;
+      }
+
+    }
+
+    &__phone{
+
+      padding-bottom: 3.2rem;
+      padding-right: 1.6rem;
+
+      &-1{
+        color: $color-grey-5;
+        font-weight: 700;
+        font-family: 'Roboto', sans-serif;
+        font-size: 2rem;
+        line-height: 3.2rem;
+        letter-spacing: .36px;
+        text-align: right;
+      }
+
+
+      &-2{
+        color: $color-grey-5;
+        font-weight: 400;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.8rem;
+        line-height: 3.2rem;
+        letter-spacing: .36px;
+        text-align: right;
+      }
+
+    }
+
+    &__address{
+
+      padding-right: 1.6rem;
+
+      &-1{
+        color: $color-grey-5;
+        font-weight: 700;
+        font-family: 'Roboto', sans-serif;
+        font-size: 2rem;
+        line-height: 3.2rem;
+        letter-spacing: .36px;
+        text-align: right;
+      }
+
+
+      &-2{
+        color: $color-grey-5;
+        font-weight: 400;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.8rem;
+        line-height: 3.2rem;
+        letter-spacing: .36px;
+        text-align: right;
+      }
+
+    }
+
+}
+
+.middle{
+
+  text-align: center;
+  border-top: none;      /* Убираем верхнюю границу */
+  border-bottom: none;   /* Убираем нижнюю границу */
+  border-left: 1px solid $color-grey-4;   ;   /* Левая граница */
+  border-right: 1px solid $color-grey-4;   ;  /* Правая граница */
+  margin-right: 3.2rem;
+  padding-top: 3.3rem;
+  margin-bottom: 8rem;
+
+
+    &__company{
+      color: $color-grey-5;
+      font-weight: 400;
+      font-family: 'Roboto', sans-serif;
+      font-size: 1.8rem;
+      line-height: 3.2rem;
+      letter-spacing: .36px;
+      text-align: center;
+      padding-top: 4rem;
+      margin-left: 4.9rem;
+      margin-right: 4.8rem;
+    }
+
+    &__icons{
+      font-size: 3.4rem;
+      padding-top: 6.4rem;
+      gap: 2.4rem;
+    }
+
+}
+
+.rightt{
+
+  margin-bottom: 6.5rem;
+
+
+  padding-left: 1.6rem;
+
+  &__utility{
+    color: $color-primary-grey;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    font-size: 3rem;
+    line-height: 3.2rem;
+    letter-spacing: .36px;
+    padding-bottom: 4.8rem;
+  }
+
+  &__1{
+    color: $color-grey-5;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.8rem;
+    line-height: 3.2rem;
+    letter-spacing: .36px;
+  }
+  &__2,
+  &__3,
+  &__4,
+  &__5{
+    color: $color-grey-5;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.8rem;
+    line-height: 3.2rem;
+    letter-spacing: .36px;
+    padding-top: 2.4rem;
+    
+  }
+
+}
+
+.bottomm{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 1.6rem;
+  padding-top: 1.6rem;
+  border-top: 1px solid $color-grey-4;      /* Убираем верхнюю границу */
+  border-bottom: none;   /* Убираем нижнюю границу */
+  border-left: none;   /* Левая граница */
+  border-right: none;  /* Правая граница */
+
+  &__copy{
+    color: $color-grey-5;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.8rem;
+    line-height: 3.2rem;
+    letter-spacing: .36px;
+    text-align: center;
+  }
+
+}
