@@ -1,0 +1,110 @@
+.aboutus{
+
+
+background-color: $color-grey-1;
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+
+  .image{
+    padding-left: 4rem;
+  }
+
+}
+
+.content{
+
+
+
+    &__about{
+      font-family: 'Yellowtail', cursive;
+      font-weight: 400;
+      font-size: 3.6rem;
+      line-height: 6.4rem;
+      letter-spacing: .36px;
+      color: $color-primary-green;
+    }
+
+    &__wee{
+      color: $color-primary-grey;
+      font-weight: 700;
+      font-family: 'Roboto', sans-serif;
+      font-size: 4.8rem;
+      line-height: 5.6rem;
+      letter-spacing: .36px;
+      margin-bottom: 2.4rem;
+    }
+
+    &__welcome{
+      color: $color-primary-grey;
+      font-weight: 400;
+      font-family: 'Roboto', sans-serif;
+      font-size: 1.8rem;
+      line-height: 3.2rem;
+      letter-spacing: .36px;
+
+    }
+
+    &__button-about{
+    background-color: $color-primary-grey;
+    border-radius: 1.6rem;
+    font-size: 2rem;
+    line-height: 3.2rem;
+    letter-spacing: .36px;
+    color: $color-white;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    padding: 2.4rem;
+    border-style: none;
+    margin-bottom: -10rem;
+    margin-top: 5.6rem;
+      }
+    }
+
+
+.frame1{
+
+  .textwithicon{
+    display: flex;
+    padding-bottom: 2.4rem;
+    margin-top: 5.6rem;
+
+    &-icon{
+      border-radius: 2rem;
+    }
+
+  }
+
+  .textwithicon2{
+    display: flex;
+    
+
+  }
+
+}
+
+.frame9{
+
+padding-left: 2rem;
+
+  &__organic{
+    color: $color-primary-grey;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.4rem;
+    line-height: 3.2rem;
+    letter-spacing: .36px;
+  }
+
+  &__the{
+    color: $color-primary-grey;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.4rem;
+    line-height: 3.2rem;
+    letter-spacing: .36px;
+  }
+
+}
